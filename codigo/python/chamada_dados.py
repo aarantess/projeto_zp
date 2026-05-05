@@ -22,4 +22,4 @@ print(zp.head()) # Imprime as primeiras 5 linhas do DataFrame para uma visão ge
 print(zp.info()) # Imprime informações sobre o DataFrame, como o número de entradas, tipos de dados e uso de memória.
 
 print(zp.describe()) # Imprime estatísticas descritivas para as colunas numéricas do DataFrame, como média, desvio padrão, valores mínimos e máximos.
-
+print(zp['Canal'].unique()) # Imprime os valores únicos presentes na coluna 'Canal' do DataFrame.
